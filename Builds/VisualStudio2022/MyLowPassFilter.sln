@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLowPassFilter - Standalone Plugin", "MyLowPassFilter_StandalonePlugin.vcxproj", "{5A5E4B5F-8C8F-8D4F-562B-1FCBCC33D511}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4} = {F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLowPassFilter - VST3", "MyLowPassFilter_VST3.vcxproj", "{F49CC781-625B-B11A-02AD-430B38565E0C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4} = {F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}
+		{2ADD825A-E3E3-4C80-D105-4A8766F5102F} = {2ADD825A-E3E3-4C80-D105-4A8766F5102F}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLowPassFilter - Shared Code", "MyLowPassFilter_SharedCode.vcxproj", "{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyLowPassFilter - VST3 Manifest Helper", "MyLowPassFilter_VST3ManifestHelper.vcxproj", "{2ADD825A-E3E3-4C80-D105-4A8766F5102F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F49CC781-625B-B11A-02AD-430B38565E0C}.Debug|x64.ActiveCfg = Debug|x64
+		{F49CC781-625B-B11A-02AD-430B38565E0C}.Debug|x64.Build.0 = Debug|x64
+		{F49CC781-625B-B11A-02AD-430B38565E0C}.Release|x64.ActiveCfg = Release|x64
+		{F49CC781-625B-B11A-02AD-430B38565E0C}.Release|x64.Build.0 = Release|x64
+		{5A5E4B5F-8C8F-8D4F-562B-1FCBCC33D511}.Debug|x64.ActiveCfg = Debug|x64
+		{5A5E4B5F-8C8F-8D4F-562B-1FCBCC33D511}.Debug|x64.Build.0 = Debug|x64
+		{5A5E4B5F-8C8F-8D4F-562B-1FCBCC33D511}.Release|x64.ActiveCfg = Release|x64
+		{5A5E4B5F-8C8F-8D4F-562B-1FCBCC33D511}.Release|x64.Build.0 = Release|x64
+		{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}.Debug|x64.ActiveCfg = Debug|x64
+		{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}.Debug|x64.Build.0 = Debug|x64
+		{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}.Release|x64.ActiveCfg = Release|x64
+		{F6E97A4C-CFD7-72E3-0354-105DBDFE6FD4}.Release|x64.Build.0 = Release|x64
+		{2ADD825A-E3E3-4C80-D105-4A8766F5102F}.Debug|x64.ActiveCfg = Debug|x64
+		{2ADD825A-E3E3-4C80-D105-4A8766F5102F}.Debug|x64.Build.0 = Debug|x64
+		{2ADD825A-E3E3-4C80-D105-4A8766F5102F}.Release|x64.ActiveCfg = Release|x64
+		{2ADD825A-E3E3-4C80-D105-4A8766F5102F}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
